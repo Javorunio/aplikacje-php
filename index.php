@@ -9,7 +9,7 @@
     <?php
     $liczba = 100;
 
-    if($liczba > 99)
+    if($liczba > 99 && $liczba < 1000)
     echo "Liczba jest trzycyfrowa";
     else
     echo "Liczba nie jest trzycyfrowa";
